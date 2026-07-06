@@ -1,0 +1,19 @@
+# deps
+node_modules
+dist
+dist-ssr
+
+# tauri / rust
+src-tauri/target
+src-tauri/gen/schemas
+
+# logs / env
+*.log
+.env
+.env.*
+
+# editor / os
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db

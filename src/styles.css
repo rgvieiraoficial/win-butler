@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-zinc-950 text-zinc-200 font-sans antialiased;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow: hidden;
+  }
+  /* Permite selecionar textos úteis (valores, logs). */
+  code,
+  pre,
+  .selectable {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-zinc-700 rounded-full;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-lg border border-zinc-700 bg-zinc-950 px-2.5 py-1.5 text-xs text-zinc-200 outline-none transition focus:border-accent/60;
+  }
+}
