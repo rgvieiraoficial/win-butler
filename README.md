@@ -75,5 +75,9 @@ nível de execução **HIGHEST**.
 
 - `cleanmgr /sagerun:1` usa o perfil salvo. Configure uma vez: `cleanmgr /sageset:1`.
 - Compactar o vhdx encerra o WSL (`wsl --shutdown`) — **feche o Docker Desktop antes**.
-- Os ícones em `src-tauri/icons` são placeholders; troque por arte final
-  (`yarn tauri icon caminho/para/logo.png`).
+- Os ícones em `src-tauri/icons` (gravata-borboleta ciano) são gerados por
+  `src-tauri/gen-icons.ps1`; rode o script pra regerar após mudar o desenho.
+
+## Autor
+
+**Yami Renato** — [@rgvieiraoficial](https://github.com/rgvieiraoficial)
