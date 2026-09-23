@@ -85,3 +85,15 @@ nível de execução **HIGHEST**.
 ## Autor
 
 **Yami Renato** — [@rgvieiraoficial](https://github.com/rgvieiraoficial)
+
+## Licença
+
+Este projeto é distribuído sob a **GNU General Public License v3.0** — veja o arquivo [LICENSE](LICENSE).
+
+Em resumo: você pode usar, estudar, modificar e redistribuir. Se distribuir uma versão
+modificada, ela precisa continuar sob a mesma licença e com o código-fonte aberto.
+O programa é fornecido **sem qualquer garantia** — ele executa comandos com privilégios
+de administrador e apaga arquivos; use por sua conta e risco.
+
+Copyright (C) 2026 Yami Renato
+
