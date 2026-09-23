@@ -45,6 +45,3 @@ Sem suíte de testes. Verificação da UI = `yarn build` passar. Backend exige R
 - Compactar vhdx: precisa do WSL encerrado e Docker Desktop fechado, senão `diskpart` falha (arquivo em uso).
 - Toggle de startup usa os bytes de `StartupApproved` (mesmo mecanismo do Gerenciador de Tarefas): byte[0]=2 habilitado, 3 desabilitado.
 - Ícones em `src-tauri/icons` são placeholders gerados (.NET). Trocar por arte final.
-
-## Git
-- Identidade global: `yami.hiei87@gmail.com` (regra global do usuário). Nunca commitar/push sem ordem expressa.

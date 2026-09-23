@@ -7,6 +7,10 @@ automaticamente ao abrir — tudo é iniciado pelo usuário.
 > Stack: **Tauri v2** (Rust) + **React 18 · Vite 5 · TypeScript · Tailwind 3**.
 > O binário nativo (Rust) executa os comandos privilegiados; a UI é web.
 
+<p align="center">
+  <img src="docs/dashboard.png" alt="Painel do WinButler" width="100%">
+</p>
+
 ## Funcionalidades
 
 | Seção | O que faz | Comandos por baixo |
